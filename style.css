@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.instructions {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.cards-container {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.card {
+  width: 198px;
+  height: 198px;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8em;
+  border-radius: 40px;
+}

@@ -1,0 +1,33 @@
+
+User Stories
+- all cards start face-down
+- there are exactly 2 of every card
+- shuffle them, lay them out in a grid
+
+- you flip one and leave it up
+- you flip another
+- if they match, leave them up
+- if not, flip them both back over
+
+- if it's my first out of 2 guesses, flip 1 card over and leave it face up
+- if it's your second guess, flip 1 card over
+  - if they match: leave them face up
+  - if not, flip them back down
+
+mvp
+=====
+stretch
+
+- when every card is face-up, you win
+- we need a lose condition: either x number of turns have been played, or x amount of time has gone by, etc
+- track how many turns have been played, or how long the game has been going
+- animation: classList.add to give it a class that makes it rotate
+
+
+
+state to track:
+  - how many turns have been played
+  - how many cards have been flipped (so we don't go beyond 2)
+  - which cards have been flipped in this round
+  - which cards have been matched successfully
+  - list of all face down card values
